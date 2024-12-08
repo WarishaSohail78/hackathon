@@ -1,0 +1,217 @@
+*{
+    max-width: 1440px;
+    max-height: 2365px;
+    background-color: #FFFFFF;
+}
+
+body{
+    font-family: "poppins";
+    background-color:#FFFFFF ;
+    color: #000000;
+}
+
+header{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1286px;
+    padding: 41px;
+}
+
+.navlist{
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+    height: 24px;
+    gap: 75px;
+    color: #000000;
+    font-size: 16px;
+    font: medium;
+    grid-column: 4;
+    margin-right: 505px;
+    margin-top: 38px;
+} 
+li{
+    padding-left: 20%;
+    list-style: none;
+    display: inline-block;
+    font-size: 16px;
+}
+li a{
+    color: #000000;
+   width: 48px;
+   height: 24px;
+}
+
+h3{
+    padding-left: 50%;
+    display: flex;
+    justify-content: center;
+    width: 375px;
+    height: 54px;
+    font-family: "poppins";
+    font:600;
+    font-size: 36px;
+    margin-bottom: 0%;
+
+}
+p{
+    margin-top: 0%;
+    padding-left: 40%;
+    display: flex;
+    justify-content: center;
+    width: 644px;
+    height: 48px;
+    text-align: center;
+    font-family: "poppins";
+    font: 400;
+    font-size: 16px; 
+    color: #9F9F9F;
+}
+
+.contact-section {
+    display: inline-block;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    margin: auto;
+    font-family: "poppins";
+    color: #000000;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: left;
+    gap: 15px;
+  }
+  
+  .icon {
+    width:22px ;
+    height: 27.59;
+    color: #000000;
+  }
+  
+  .details h4 {
+    margin: 0;
+    width: 99px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: medium;
+    font-family: "poppins";
+  }
+  
+  .details p {
+    width: 212px;
+    height: 72px;
+    margin: 0px 0 0;
+    font-size: 16px;
+    
+  }
+
+
+form{
+    align-content: right;
+        display: flex;
+        max-width: 531px;
+        height: 741px;
+        margin: auto;
+        margin-left: 700px;
+        justify-items: block;
+       background-color:#FFFFFF;
+        border:#FFFFFF;
+        padding: 20px;
+    } 
+    fieldset{
+        border: #FFFFFF;
+     border-radius: 8px;
+     padding: 20px;
+     margin-bottom: 20px;
+     background-color: #FFFFFF;
+    }
+label{
+   
+    float: left;
+    width: 111.25px;
+    height: 24px;
+    font: medium;
+    font-family: "poppins";
+    font-size: 16px;
+    line-height: auto;
+    align-items: right;
+      margin-top: 500;
+      display: block;
+       color:#000000;
+}
+input{
+   
+    float: right;
+       width: 528.75px;
+       height: 75px;
+       margin-top: 4px;
+       border-color: #9F9F9F;
+       color: #9F9F9F;
+       border-radius: 4px;     
+}
+button{
+    width:237px ;
+    height:55px ;
+    margin-left: 25px ;
+    border-radius: 5px;
+    border-color: #B88E2F;
+    color: #FFFFFF;
+    background-color: #B88E2F;
+    font-size: 16px;
+    display: block;
+    cursor: pointer;
+}
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FAF3EA;
+    padding: 20px;
+    border: #FAF3EA;
+    width: 1440px;
+    height: 270px;
+    margin:  auto;
+  }
+  
+.feature-item{
+    text-align: center;
+    width: 1440px;
+    height: 270px;
+    background-color: #FAF3EA;
+  }
+  
+  .icon {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .trophy::before {
+    content: "🏆";
+  }
+  
+  .check::before {
+    content: "✔️";
+  }
+  
+  .shipping::before {
+    content: "📦";
+  }
+  
+  .support::before {
+    content: "🎧";
+  }
+  
+  h3 {
+    font-size: 25px;
+    color:#242424;
+  }
+  
+  p {
+    font-size: 20px;
+    color: #898989;
+  }
+
+  
